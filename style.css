@@ -1,0 +1,770 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&family=Montserrat:wght@100;200;300&family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.imagem-google{
+    text-align: center;
+}
+
+.google{
+    width: 8%;
+    margin-top: 20px;
+}
+
+.titulo-div{
+    text-align: center;
+}
+
+.titulo{
+    font-family: "Montserrat";
+    color: rgb(66, 66, 66);
+}
+
+.subtitulo-div{
+    text-align: center;
+    margin: 1.2% 0 1.2% 0;
+}
+
+.subtitulo{
+    font-family: "Montserrat";
+    font-size: 1.4em;
+    color: rgb(66, 66, 66);
+}
+
+form{
+    background-color: rgb(235, 233, 233);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    height: 40%;
+    width: 35%;
+    margin: auto;
+    text-align: center;
+}
+
+.form-size{
+    height: 80%;
+    width: 75%;
+    margin: auto;
+}
+
+.perfil{
+    height: 100%;
+    width: 100%;
+}
+
+.perfil-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+}
+
+.input-group{
+    width: 99%;
+    height: 99%;
+}
+
+.input-group input:focus-visible{
+    outline: 2px solid rgb(75, 133, 243);
+}
+
+.input-2{
+    width: 99.5%;
+    height: 40px;
+    border-radius: 5px;
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: 5px;
+    border-color: white;
+    font-size: 15px;
+
+}
+
+.fazer-login{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.botao-login{
+    width: 100%;
+    border-radius: 5px;
+    font-family:"Montserrat";
+    color: white;
+    background-color: rgb(75, 133, 243);
+    height: 40px;
+    font-weight: 1000;
+    border-color:  rgb(235, 233, 233);
+    margin-bottom: 25px;
+}
+
+.botoes{
+    width: 100%;
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkbox-div{
+    width: 50%;
+    height: 100%;
+}
+
+.continuar{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+}
+
+.ajuda{
+    width: 50%;
+    text-align: right;
+}
+
+.ajuda-2{
+    box-shadow: none;
+    font-family: "Montserrat";
+    color: rgb(75, 133, 243);
+    font-weight: 1000;
+    text-decoration: none;
+    background-color: rgb(235, 233, 233);
+}
+
+.criar-conta{
+    text-align: center;
+    margin-top: 1.7%;
+}
+
+.conta{
+    background-color: white;
+    border-color: white;
+    box-shadow: none;
+    font-family: "Montserrat";
+    color: rgb(75, 133, 243);
+    font-weight: 1000;
+    text-decoration: none;
+}
+
+.rodape{
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(66, 66, 66);
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px){
+
+    .google{
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .titulo{
+        font-size: 15px;
+        margin-top: 14px;
+    }
+
+    .subtitulo{
+        font-size: 12px;
+        margin-top: 14px;
+        margin-bottom: 6%;
+    }
+
+    form{
+        height: 50%;
+        width: 95%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 40%;
+        height: 40%;
+        margin-top: 7%;
+    }
+
+    #checkbox-div{
+        text-align: left;
+    }
+    
+    .continuar{
+        font-size: 12px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 80%;
+    }
+    
+    .criar-conta{
+        margin-top: 8%;
+    }
+
+    .rodape{
+        font-size: 70%;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px){
+
+    .google{
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .titulo{
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+    .subtitulo{
+        font-size: 14px;
+        margin-top: 12px;
+        margin-bottom: 4%;
+    }
+
+    form{
+        height: 50%;
+        width: 95%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 40%;
+        height: 40%;
+        margin-top: 7%;
+    }
+
+    #checkbox-div{
+        text-align: left;
+    }
+    
+    .continuar{
+        font-size: 12px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 80%;
+    }
+    
+    .criar-conta{
+        margin-top: 8%;
+    }
+
+    .rodape{
+        font-size: 70%;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px){
+
+    .google{
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    .titulo{
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 5%;
+    }
+
+    form{
+        height: 50%;
+        width: 95%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 40%;
+        height: 40%;
+        margin-top: 7%;
+    }
+
+    .input-2{
+        font-size: 18px;
+    }
+
+    .botao-login{
+        font-size: 18px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+    
+    .continuar{
+        font-size: 16px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .criar-conta{
+        margin-top: 8%;
+        font-size: 25px;
+    }
+
+    .rodape{
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px){
+
+    .google{
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    .titulo{
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 5%;
+    }
+
+    form{
+        height: 50%;
+        width: 95%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 40%;
+        height: 40%;
+        margin-top: 7%;
+    }
+
+    .input-2{
+        font-size: 18px;
+    }
+
+    .botao-login{
+        font-size: 18px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+    
+    .continuar{
+        font-size: 16px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .criar-conta{
+        margin-top: 8%;
+        font-size: 25px;
+    }
+
+    .rodape{
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px){
+
+    .google{
+        width: 40%;
+        margin-top: 40px;
+    }
+
+    .titulo{
+        font-size: 22px;
+        margin-top: 12px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+        margin-top: 16px;
+        margin-bottom: 5%;
+    }
+
+    form{
+        height: 50%;
+        width: 95%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 40%;
+        height: 40%;
+        margin-top: 7%;
+    }
+
+    .input-2{
+        font-size: 18px;
+    }
+
+    .botao-login{
+        font-size: 18px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+    
+    .continuar{
+        font-size: 16px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .criar-conta{
+        margin-top: 8%;
+        font-size: 25px;
+    }
+
+    .rodape{
+        font-size: 18px;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 700px) and (max-width: 800px){
+
+    .google{
+        width: 32%;
+        margin-top: 40px;
+    }
+
+    .titulo{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+    .subtitulo{
+        font-size: 27px;
+        margin-top: 28px;
+        margin-bottom: 5%;
+    }
+
+    form{
+        height: 50%;
+        width: 70%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 40%;
+        height: 40%;
+        margin-top: 7%;
+    }
+
+    .input-2{
+        font-size: 20px;
+    }
+
+    .botao-login{
+        font-size: 20px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+    
+    .continuar{
+        font-size: 20px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 20px;
+    }
+    
+    .criar-conta{
+        margin-top: 8%;
+        font-size: 25px;
+    }
+
+    .rodape{
+        font-size: 22px;
+        margin-top: 8%;
+    }
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 900px){
+
+    .google{
+        width: 15%;
+        margin-top: 25px;
+    }
+
+    .titulo{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .subtitulo{
+        font-size: 22px;
+        margin-top: 15px;
+        margin-bottom: 3%;
+    }
+
+    form{
+        height: 50%;
+        width: 55%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 20%;
+        height: 20%;
+        margin-top: 2%;
+    }
+
+    .input-2{
+        font-size: 16px;
+    }
+
+    .botao-login{
+        font-size: 16px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+
+    .check{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .continuar{
+        font-size: 16px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .criar-conta{
+        margin-top: 5%;
+        font-size: 18px;
+    }
+
+    .rodape{
+        font-size: 15px;
+        margin-top: 5%;
+    }
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1000px){
+
+    .google{
+        width: 15%;
+        margin-top: 25px;
+    }
+
+    .titulo{
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .subtitulo{
+        font-size: 22px;
+        margin-top: 18px;
+        margin-bottom: 5%;
+    }
+
+    form{
+        height: 50%;
+        width: 50%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 20%;
+        height: 20%;
+        margin-top: 2%;
+    }
+
+    .input-2{
+        font-size: 16px;
+    }
+
+    .botao-login{
+        font-size: 16px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+
+    .check{
+        width: 20px;
+        height: 20px;
+    }
+    
+    .continuar{
+        font-size: 16px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .criar-conta{
+        margin-top: 3%;
+        font-size: 18px;
+    }
+
+    .rodape{
+        font-size: 15px;
+        margin-top: 3%;
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1300px){
+
+    .google{
+        width: 12%;
+        margin-top: 30px;
+    }
+
+    .titulo{
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    .subtitulo{
+        font-size: 20px;
+        margin-top: 5px;
+        margin-bottom: 4%;
+    }
+
+    form{
+        height: 50%;
+        width: 40%;
+    }
+
+    .form-size{
+        height: 80%;
+        width: 95%;
+        margin: auto;
+    }
+    
+    .perfil-img{
+        width: 15%;
+        height: 15%;
+        margin-top: 2%;
+    }
+
+    .input-2{
+        font-size: 16px;
+        height: 30px;
+    }
+
+    .fazer-login{
+        margin-top: 10px;
+    }
+     
+    .botao-login{
+        font-size: 16px;
+        height: 30px;
+    }
+    
+    #checkbox-div{
+        text-align: left;
+    }
+
+    .check{
+        width: 16px;
+        height: 16px;
+    }
+    
+    .continuar{
+        font-size: 16px;
+    }
+
+    .ajuda{
+        width: 50%;
+        font-size: 16px;
+    }
+    
+    .criar-conta{
+        font-size: 18px;
+        margin-top: 3%;
+    }
+
+    .rodape{
+        font-size: 18px;
+        margin-top: 3%;
+    }
+
+}
